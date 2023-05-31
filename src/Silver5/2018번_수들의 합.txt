@@ -1,0 +1,45 @@
+//실버 5 - 2018번 수들의 합
+//완료 일자 : 2023년 5월 31일 22:00~23:30
+//문제 내용 :
+어떠한 자연수 N은, 몇 개의 연속된 자연수의 합으로 나타낼 수 있다. 당신은 어떤 자연수 N(1 ≤ N ≤ 10,000,000)에 대해서, 이 N을 몇 개의 연속된 자연수의 합으로 나타내는 가지수를 알고 싶어한다. 이때, 사용하는 자연수는 N이하여야 한다.
+예를 들어, 15를 나타내는 방법은 15, 7+8, 4+5+6, 1+2+3+4+5의 4가지가 있다. 반면에 10을 나타내는 방법은 10, 1+2+3+4의 2가지가 있다.
+N을 입력받아 가지수를 출력하는 프로그램을 작성하시오.
+// 풀이 힌트 :
+X ( 0+) 첫번째
+X , X+1 (0+1) 두번째
+X , X+1 , X+2 (0+1+2 ) 세번째
+X , X+1 , X+2 , X+3 ( 0+1+2+3 ) 네번째
+이렇게 해서 값을 입력받고 X값이 1일 되거나 입력값-합계가 음수가 될때까지 (num-sum)%(a+1))==0해서 나눠 떨어지면 가지수를 추가한다!!
+..............................
+
+//풀이코드:
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        int count=1; // 가지수를 담는 변수
+        int sum=0;
+        int result;
+        Scanner scanner=new Scanner(System.in);
+        int num=scanner.nextInt();
+        for(int a=1;a<num;a++)
+        {
+            sum=sum+a;
+            result=num-sum;
+            if(result<0)
+            {
+                break;
+            }
+
+                if(((num-sum)%(a+1))==0) //
+                {
+                    count=count+1; // 가지수 늘리기
+                    if(((num-sum)/(a+1)==1))
+                    {
+                        break;
+                    }
+                }
+        }
+        System.out.println(count);
+    }
+}
