@@ -1,0 +1,53 @@
+//브론즈2 - 8958번 ox퀴즈
+//완료 일자 : 2023년 6월 3일~4일 총 3시간 넘었다...
+//시간이 오래 걸린 이유 : 브론즈 2 수준인데 너무 복잡하게 생각했다 ... 간단한게 생각하는 연습을 해야될 것 같다. 간단한 방법을 생각했더니 바로 구현됐다.
+//문제 내용 :
+"OOXXOXXOOO"와 같은 OX퀴즈의 결과가 있다. O는 문제를 맞은 것이고, X는 문제를 틀린 것이다. 문제를 맞은 경우 그 문제의 점수는 그 문제까지 연속된 O의 개수가 된다.
+예를 들어, 10번 문제의 점수는 3이 된다. "OOXXOXXOOO"의 점수는 1+2+0+0+1+0+0+1+2+3 = 10점이다.
+OX퀴즈의 결과가 주어졌을 때, 점수를 구하는 프로그램을 작성하시오.
+// 풀이 힌트 :
+-> 풀이코드 참조
+.....................................................................................
+
+//풀이코드
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int num;
+        Scanner scanner = new Scanner(System.in);
+        num = scanner.nextInt();
+        scanner.nextLine();
+        for(int i=0;i<num;i++)
+        {
+            String str=scanner.nextLine(); // 문자열 입력
+            calculate(str); // 점수 계산
+        }
+
+    }
+    public static void calculate(String str)
+    {
+        int sum=1; // "O"이 나왔을때 더해지는 변수
+        int result=0; // 최종 점수
+        for(int k=0;k<str.length();k++)
+        {
+            char c=str.charAt(k); // 입력된 문자열을 차례차례 검사
+            if(c=='O')
+            {
+                result=result+sum;
+                sum=sum+1;
+            }
+            else {
+                sum=1;
+            }
+        }
+
+
+        System.out.println(result);
+    }
+
+}
+
+
+
