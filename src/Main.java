@@ -4,37 +4,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
-        int num;
-        Scanner scanner = new Scanner(System.in);
-        num = scanner.nextInt();
-        scanner.nextLine();
-        for(int i=0;i<num;i++)
+        Scanner scanner=new Scanner(System.in);
+        String str=scanner.nextLine();
+        String trimstr=str.trim();
+        if(trimstr.isEmpty()==false)
         {
-            String str=scanner.nextLine();
-            calculate(str);
+            String[] result = trimstr.split(" ");
+            System.out.println(result.length);
         }
-
-    }
-    public static void calculate(String str)
-    {
-        int sum=1;
-        int result=0;
-        for(int k=0;k<str.length();k++)
-        {
-            char c=str.charAt(k);
-            if(c=='O')
-            {
-                result=result+sum;
-                sum=sum+1;
-            }
-            else {
-                sum=1;
-            }
+        else {
+            System.out.println(0);
         }
-
-
-        System.out.println(result);
     }
 
 }

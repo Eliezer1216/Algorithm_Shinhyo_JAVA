@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b82b1f-ef4e-41d7-a98d-85069025cbdc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bronze2/8958번_ox퀴즈.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bronze2/1152번_단어의 개수.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bronze2/8958번_ox퀴즈.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bronze2/8958번_ox퀴즈.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Silver5/2018번_수들의 합.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Silver5/2018번_수들의 합.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
