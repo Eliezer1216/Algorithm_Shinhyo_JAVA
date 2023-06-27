@@ -5,15 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b82b1f-ef4e-41d7-a98d-85069025cbdc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bronze2/2577번_숫자의 개수.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_practice/problem1/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_practice/problem1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_practice/problem1/Problem1_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_practice/problem1/Subway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_practice/problem2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_practice/problem2/Problem2_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_practice/problem2/Taxi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bronze2/1152번_단어의 개수.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bronze2/1152번_단어의 개수.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bronze2/1152번_단어의 개수.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_practice/bronze2/1152번_단어의 개수.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bronze2/2577번_숫자의 개수.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_practice/bronze2/2577번_숫자의 개수.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bronze2/8958번_ox퀴즈.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_practice/bronze2/8958번_ox퀴즈.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Silver5/2018번_수들의 합.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_practice/silver5/2018번_수들의 합.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,17 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tlsgy\OneDrive\바탕 화면\취업 준비\알고리즘\알고리즘 문제\Algorithm\src\algorithm_practice\bronze2" />
+      <recent name="C:\Users\tlsgy\OneDrive\바탕 화면\취업 준비\알고리즘\알고리즘 문제\Algorithm\src\algorithm_practice\bronze2\silver5" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
